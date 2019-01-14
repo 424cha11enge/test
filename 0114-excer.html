@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      p{
+        font-size: 5px;
+        margin-bottom: 0;
+
+      }
+      .top{
+        border-bottom: 1px solid gray;
+        text-align: left;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-weight: bold;
+
+      }
+      .border{
+        border: 1px solid gray;
+        padding: 30px;
+        padding-top:2px;
+        width: 200px;
+      }
+      .send{
+
+        margin-top:20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="" action="index.php">
+    <div class="border">
+        <div class="top">
+          회원가입
+        </div>
+      <div><p>닉네임</p>
+        <input type="text" name="nick" value="" required autofocus placeholder="nickname">
+      </div>
+      <div><p>이메일</p>
+        <input type="email" name="email" value="" placeholder="email">
+      </div>
+      <div><p>비밀번호</p>
+        <input type="password" name="pwd" value="" placeholder="password">
+      </div>
+      <div><p>성별
+          남 <input type="radio" name="sex" value="M"> 여 <input type="radio" name="sex" value="F"></p>
+      </div>
+      <div><p>생일
+        <select class="" name="month">
+          <option value="1">JAN</option>
+          <option value="2">FEB</option>
+          <option value="3">MAR</option>
+        </select>
+        <select class="" name="day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+          </p>
+      </div>
+    <div class="send">
+
+          <input type="submit" name="" value="send">
+    </div>
+      </div>
+
+
+        </form>
+  </body>
+</html>
